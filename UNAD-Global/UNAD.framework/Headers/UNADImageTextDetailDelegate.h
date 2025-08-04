@@ -1,0 +1,49 @@
+//
+//  UNADImageTextDetailDelegate.h
+//  UNAD
+//
+//  Created by xiezuan on 2022/9/4.
+//  Copyright © 2022 UNAD. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+#import "UNADContentDelegate.h"
+
+NS_ASSUME_NONNULL_BEGIN
+
+//图文详情的回调
+@protocol UNADImageTextDetailDelegate <NSObject>
+@optional
+/// 进入图文详情页
+/// @param detailViewController 图文详情页VC
+/// @param feedId feedId
+- (void)unad_imageTextDetailDidEnter:(UIViewController *)detailViewController feedId:(NSString *)feedId;
+
+/// 离开图文详情页
+/// @param detailViewController 图文详情页VC
+- (void)unad_imageTextDetailDidLeave:(UIViewController *)detailViewController;
+
+/// 图文详情页appear
+/// @param detailViewController 图文详情页VC
+- (void)unad_imageTextDetailDidAppear:(UIViewController *)detailViewController;
+
+/// 图文详情页disappear
+/// @param detailViewController 图文详情页VC
+- (void)unad_imageTextDetailDidDisappear:(UIViewController *)detailViewController;
+
+/// 图文详情加载结果
+/// @param detailViewController 图文详情页VC
+/// @param success 是否成功
+/// @param error error
+- (void)unad_imageTextDetailDidLoadFinish:(UIViewController *)detailViewController success:(BOOL)success error:(NSError *)error;
+
+/// 图文详情阅读进度
+/// @param detailViewController 图文详情页VC
+/// @param isFold 是否折叠
+/// @param totalHeight 详情总高度
+/// @param seenHeight 已经看过的高度
+- (void)unad_imageTextDetailDidScroll:(UIViewController *)detailViewController isFold:(BOOL)isFold totalHeight:(CGFloat)totalHeight seenHeight:(CGFloat)seenHeight;
+
+@end
+
+NS_ASSUME_NONNULL_END
