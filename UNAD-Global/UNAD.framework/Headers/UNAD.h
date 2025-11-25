@@ -38,7 +38,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 //当前版本号
 
-#define UNAD_SDK_VERSION  @"2.9.5"
+#define UNAD_SDK_VERSION  @"2.9.7"
 
 
 //测试应用ID
@@ -100,6 +100,10 @@ typedef NS_ENUM(NSInteger,UNADArea) {
 //设置区域
 +(void)setArea:(UNADArea)area;
 +(UNADArea)getArea;
+
+//设置用户ID和公司ID
++(void)setUserId:(NSString *)userId;
++(void)setComId:(NSString *)comId;
 
 
 //当前sdk的版本号

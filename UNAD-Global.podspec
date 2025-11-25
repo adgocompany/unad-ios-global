@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "UNAD-Global"
-  spec.version      = "2.9.5"
+  spec.version      = "2.9.7"
   spec.summary      = "UNAD国外版本"
 
   # This description is used to generate tags and improve search results.
@@ -143,7 +143,7 @@ Pod::Spec.new do |spec|
    spec.dependency "BigoADS", "4.6.0"
    spec.dependency "Ads-Global", "7.2.0.5"
    spec.dependency "IronSourceSDK", "7.3.0.0"
-   spec.dependency "Google-Mobile-Ads-SDK", "12.6.0"
+   spec.dependency "Google-Mobile-Ads-SDK",'12.12.0'
    spec.dependency "AmazonPublisherServicesSDK", "4.7.5"
    spec.dependency "AppLovinSDK", "11.11.3"
    spec.dependency "GoogleMobileAdsMediationFacebook"
