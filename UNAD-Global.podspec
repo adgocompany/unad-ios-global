@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "UNAD-Global"
-  spec.version      = "2.9.14C"
+  spec.version      = "2.9.16C"
   spec.summary      = "UNAD国外版本"
 
   # This description is used to generate tags and improve search results.
@@ -160,10 +160,7 @@ Pod::Spec.new do |spec|
   spec.dependency 'AliyunLogProducer','3.1.16'
 
   #国外
-
-  #spec.dependency 'AnyThinkMediationYandexAdapter','7.16.1.0'
-  #spec.dependency 'AnyThinkMediationFacebookAdapter','6.21.1.2.1'
-  
+  spec.dependency 'AppLovinSDK','13.6.0'
   spec.dependency 'MintegralAdSDK'
   spec.dependency 'IronSourceSDK','7.3.0.0'
   spec.dependency 'BigoADS','5.0.0'
