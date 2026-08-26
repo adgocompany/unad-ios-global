@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "UNAD-Global"
-  spec.version      = "2.9.17.1"
+  spec.version      = "2.9.17.2"
   spec.summary      = "UNAD国外版本"
 
   # This description is used to generate tags and improve search results.
