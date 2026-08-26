@@ -24,7 +24,7 @@
 #import <UNAD/UNADContentHorizontalVideoFeed.h>
 #import <UNAD/UNADContentDelegate.h>
 #import <UNAD/UNADContentCallBackProtocol.h>
-#import <UNAD/UNADOrientationManager.h>
+
 
 //#define INCLUDE_CONTENT_SDK YES
 //#define CN_ONLY YES //单独国内版本
@@ -38,7 +38,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 //当前版本号
 
-#define UNAD_SDK_VERSION  @"2.9.14C"
+#define UNAD_SDK_VERSION  @"2.9.15"
 
 
 //测试应用ID
