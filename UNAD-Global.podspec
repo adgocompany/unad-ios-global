@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "UNAD-Global"
-  spec.version      = "2.9.17.2"
+  spec.version      = "2.9.17.3"
   spec.summary      = "UNAD国外版本"
 
   # This description is used to generate tags and improve search results.
@@ -156,7 +156,7 @@ Pod::Spec.new do |spec|
   spec.dependency 'GoogleMobileAdsMediationVungle','7.7.1.0'
   spec.dependency 'GoogleMobileAdsMediationPangle','7.9.1.1.0'
   spec.dependency "AmazonPublisherServicesSDK", '~>5.0'
-  spec.dependency "AmazonPublisherServicesSDK", '~>4.0'
+  spec.dependency "AmazonPublisherServicesAdMobAdapter", '~>4.0'
 
 
   # spec.dependency 'AliyunLogProducer','3.1.16'
