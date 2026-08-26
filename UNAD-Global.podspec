@@ -96,7 +96,7 @@ Pod::Spec.new do |spec|
   spec.exclude_files = "Classes/Exclude"
 
   # SDK的路径 写上库的位置 (自动生成没有这一项，不写会出错)
-  spec.vendored_frameworks = 'UNAD-Global/UNAD.framework'
+  spec.vendored_frameworks = 'UNAD-Global/UNAD.xcframework'
   # spec.public_header_files = "Classes/**/*.h"
 
 

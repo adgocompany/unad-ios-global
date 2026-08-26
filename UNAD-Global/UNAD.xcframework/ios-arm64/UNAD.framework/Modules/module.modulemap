@@ -1,0 +1,6 @@
+framework module UNAD {
+  umbrella header "UNAD.h"
+  export *
+
+  module * { export * }
+}
