@@ -29,6 +29,7 @@
 
 //#define INCLUDE_CONTENT_SDK YES
 //#define CN_ONLY YES //单独国内版本
+//#define HW_ONLY YES //单独海外版本
 #define NO_JAD YES //移除JAD
 
 //#define NO_MINTEGRAL YES //移除Mintegral
@@ -38,7 +39,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 //当前版本号
 
-#define UNAD_SDK_VERSION  @"2.9.17.3"
+#define UNAD_SDK_VERSION  @"2.9.18"
 
 
 //测试应用ID
