@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "UNAD-Global"
-  spec.version      = "2.9.19"
+  spec.version      = "2.9.19.1"
   spec.summary      = "UNAD国外版本"
 
   # This description is used to generate tags and improve search results.
@@ -139,7 +139,7 @@ Pod::Spec.new do |spec|
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   spec.dependency 'AliyunLogProducer', '3.1.16'
-  spec.dependency 'TPNiOS', '6.5.80'
+  spec.dependency 'TPNiOS', '6.5.76'
   spec.dependency 'TPNMediationAdxSmartdigimktAdapter', '6.5.78.2.0'
   spec.dependency 'TPNMediationMolocoAdapter', '4.8.0.2.1'
   spec.dependency 'TPNMediationVungleAdapter', '7.7.4.2.1'

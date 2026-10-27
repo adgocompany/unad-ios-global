@@ -39,7 +39,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 //当前版本号
 
-#define UNAD_SDK_VERSION  @"2.9.19"
+#define UNAD_SDK_VERSION  @"2.9.19.1"
 
 
 //测试应用ID
